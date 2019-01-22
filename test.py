@@ -19,7 +19,7 @@ class Test(unittest.TestCase):
         result = self.app.get('/') 
 
         # verifica o retorno do conteudo da pagina
-        self.assertRegex(result.data.decode(), "DevOps Essentials 4Linux-Versão1.2")
+        self.assertRegex(result.data.decode(), "DevOps Essentials 4Linux-Versão1.2.1")
 
 
 if __name__ == "__main__":
